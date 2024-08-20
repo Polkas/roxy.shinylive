@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coverage SYSTEM "https://raw.githubusercontent.com/cobertura/cobertura/master/cobertura/src/site/htdocs/xml/coverage-04.dtd">
+<coverage line-rate="0.849056603773585" branch-rate="0" lines-covered="45" lines-valid="53" branches-covered="0" branches-valid="0" complexity="0" version="3.6.4" timestamp="2024-08-20 09:32:05.964741">
+  <sources>
+    <source>/__w/roxy.shinylive/roxy.shinylive/roxy.shinylive</source>
+  </sources>
+  <packages>
+    <package name="roxy.shinylive" line-rate="0.849056603773585" branch-rate="0" complexity="0">
+      <classes>
+        <class name="examplesShinyLive.R" filename="R/examplesShinyLive.R" line-rate="0.822222222222222" branch-rate="0" complexity="0">
+          <methods>
+            <method name="roxy_tag_parse.roxy_tag_examplesShinyLive" signature="" line-rate="1" branch-rate="0" complexity="0">
+              <lines>
+                <line number="101" hits="11" branch="false"/>
+                <line number="102" hits="5" branch="false"/>
+                <line number="106" hits="11" branch="false"/>
+                <line number="108" hits="11" branch="false"/>
+                <line number="110" hits="11" branch="false"/>
+                <line number="112" hits="11" branch="false"/>
+                <line number="113" hits="11" branch="false"/>
+                <line number="114" hits="11" branch="false"/>
+                <line number="115" hits="11" branch="false"/>
+                <line number="117" hits="11" branch="false"/>
+                <line number="118" hits="11" branch="false"/>
+                <line number="119" hits="11" branch="false"/>
+                <line number="120" hits="11" branch="false"/>
+                <line number="122" hits="11" branch="false"/>
+                <line number="123" hits="11" branch="false"/>
+                <line number="124" hits="11" branch="false"/>
+                <line number="125" hits="11" branch="false"/>
+                <line number="126" hits="11" branch="false"/>
+                <line number="127" hits="11" branch="false"/>
+                <line number="128" hits="11" branch="false"/>
+                <line number="129" hits="11" branch="false"/>
+                <line number="130" hits="11" branch="false"/>
+                <line number="131" hits="11" branch="false"/>
+                <line number="132" hits="11" branch="false"/>
+                <line number="133" hits="11" branch="false"/>
+                <line number="134" hits="11" branch="false"/>
+                <line number="135" hits="11" branch="false"/>
+                <line number="136" hits="11" branch="false"/>
+                <line number="137" hits="11" branch="false"/>
+                <line number="139" hits="11" branch="false"/>
+                <line number="140" hits="1" branch="false"/>
+                <line number="141" hits="1" branch="false"/>
+                <line number="144" hits="10" branch="false"/>
+                <line number="145" hits="1" branch="false"/>
+                <line number="146" hits="1" branch="false"/>
+                <line number="148" hits="9" branch="false"/>
+                <line number="149" hits="9" branch="false"/>
+              </lines>
+            </method>
+            <method name="roxy_tag_rd.roxy_tag_examplesShinyLive" signature="" line-rate="0" branch-rate="0" complexity="0">
+              <lines>
+                <line number="156" hits="0" branch="false"/>
+              </lines>
+            </method>
+            <method name="format.rd_section_examplesShinyLive" signature="" line-rate="0" branch-rate="0" complexity="0">
+              <lines>
+                <line number="162" hits="0" branch="false"/>
+                <line number="163" hits="0" branch="false"/>
+                <line number="164" hits="0" branch="false"/>
+                <line number="165" hits="0" branch="false"/>
+                <line number="166" hits="0" branch="false"/>
+                <line number="167" hits="0" branch="false"/>
+                <line number="168" hits="0" branch="false"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="101" hits="11" branch="false"/>
+            <line number="102" hits="5" branch="false"/>
+            <line number="106" hits="11" branch="false"/>
+            <line number="108" hits="11" branch="false"/>
+            <line number="110" hits="11" branch="false"/>
+            <line number="112" hits="11" branch="false"/>
+            <line number="113" hits="11" branch="false"/>
+            <line number="114" hits="11" branch="false"/>
+            <line number="115" hits="11" branch="false"/>
+            <line number="117" hits="11" branch="false"/>
+            <line number="118" hits="11" branch="false"/>
+            <line number="119" hits="11" branch="false"/>
+            <line number="120" hits="11" branch="false"/>
+            <line number="122" hits="11" branch="false"/>
+            <line number="123" hits="11" branch="false"/>
+            <line number="124" hits="11" branch="false"/>
+            <line number="125" hits="11" branch="false"/>
+            <line number="126" hits="11" branch="false"/>
+            <line number="127" hits="11" branch="false"/>
+            <line number="128" hits="11" branch="false"/>
+            <line number="129" hits="11" branch="false"/>
+            <line number="130" hits="11" branch="false"/>
+            <line number="131" hits="11" branch="false"/>
+            <line number="132" hits="11" branch="false"/>
+            <line number="133" hits="11" branch="false"/>
+            <line number="134" hits="11" branch="false"/>
+            <line number="135" hits="11" branch="false"/>
+            <line number="136" hits="11" branch="false"/>
+            <line number="137" hits="11" branch="false"/>
+            <line number="139" hits="11" branch="false"/>
+            <line number="140" hits="1" branch="false"/>
+            <line number="141" hits="1" branch="false"/>
+            <line number="144" hits="10" branch="false"/>
+            <line number="145" hits="1" branch="false"/>
+            <line number="146" hits="1" branch="false"/>
+            <line number="148" hits="9" branch="false"/>
+            <line number="149" hits="9" branch="false"/>
+            <line number="156" hits="0" branch="false"/>
+            <line number="162" hits="0" branch="false"/>
+            <line number="163" hits="0" branch="false"/>
+            <line number="164" hits="0" branch="false"/>
+            <line number="165" hits="0" branch="false"/>
+            <line number="166" hits="0" branch="false"/>
+            <line number="167" hits="0" branch="false"/>
+            <line number="168" hits="0" branch="false"/>
+          </lines>
+        </class>
+        <class name="parse_url.R" filename="R/parse_url.R" line-rate="1" branch-rate="0" complexity="0">
+          <methods>
+            <method name="create_shinylive_url" signature="" line-rate="1" branch-rate="0" complexity="0">
+              <lines>
+                <line number="11" hits="10" branch="false"/>
+                <line number="12" hits="10" branch="false"/>
+                <line number="13" hits="10" branch="false"/>
+                <line number="14" hits="10" branch="false"/>
+                <line number="15" hits="10" branch="false"/>
+                <line number="16" hits="10" branch="false"/>
+                <line number="17" hits="10" branch="false"/>
+                <line number="18" hits="10" branch="false"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="10" branch="false"/>
+            <line number="12" hits="10" branch="false"/>
+            <line number="13" hits="10" branch="false"/>
+            <line number="14" hits="10" branch="false"/>
+            <line number="15" hits="10" branch="false"/>
+            <line number="16" hits="10" branch="false"/>
+            <line number="17" hits="10" branch="false"/>
+            <line number="18" hits="10" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
