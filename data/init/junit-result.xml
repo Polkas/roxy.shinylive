@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="examplesShinyLive" timestamp="2024-08-20T09:32:23Z" hostname="09352baba860" tests="46" skipped="0" failures="0" errors="0" time="0.475">
+    <testcase time="0.152" classname="examplesShinyLive" name="examplesShinyLive_tag_errors_missing_examples"/>
+    <testcase time="0.017" classname="examplesShinyLive" name="examplesShinyLive_tag_errors_missing_examples"/>
+    <testcase time="0.021" classname="examplesShinyLive" name="examplesShinyLive_tag_single_occurrence"/>
+    <testcase time="0.003" classname="examplesShinyLive" name="examplesShinyLive_tag_single_occurrence"/>
+    <testcase time="0.001" classname="examplesShinyLive" name="examplesShinyLive_tag_single_occurrence"/>
+    <testcase time="0.003" classname="examplesShinyLive" name="examplesShinyLive_tag_single_occurrence"/>
+    <testcase time="0.002" classname="examplesShinyLive" name="examplesShinyLive_tag_single_occurrence"/>
+    <testcase time="0.011" classname="examplesShinyLive" name="examplesShinyLive_tag_multiple_occurrences"/>
+    <testcase time="0.003" classname="examplesShinyLive" name="examplesShinyLive_tag_multiple_occurrences"/>
+    <testcase time="0.001" classname="examplesShinyLive" name="examplesShinyLive_tag_multiple_occurrences"/>
+    <testcase time="0.003" classname="examplesShinyLive" name="examplesShinyLive_tag_multiple_occurrences"/>
+    <testcase time="0.003" classname="examplesShinyLive" name="examplesShinyLive_tag_multiple_occurrences"/>
+    <testcase time="0.002" classname="examplesShinyLive" name="examplesShinyLive_tag_multiple_occurrences"/>
+    <testcase time="0.003" classname="examplesShinyLive" name="examplesShinyLive_tag_multiple_occurrences"/>
+    <testcase time="0.0109999999999999" classname="examplesShinyLive" name="examplesShinyLive_tag_don_t_use_previous_example_code"/>
+    <testcase time="0.005" classname="examplesShinyLive" name="examplesShinyLive_tag_don_t_use_previous_example_code"/>
+    <testcase time="0.001" classname="examplesShinyLive" name="examplesShinyLive_tag_don_t_use_previous_example_code"/>
+    <testcase time="0.003" classname="examplesShinyLive" name="examplesShinyLive_tag_don_t_use_previous_example_code"/>
+    <testcase time="0.003" classname="examplesShinyLive" name="examplesShinyLive_tag_don_t_use_previous_example_code"/>
+    <testcase time="0.01" classname="examplesShinyLive" name="examplesShinyLive_tag_keywords_next_example_"/>
+    <testcase time="0.003" classname="examplesShinyLive" name="examplesShinyLive_tag_keywords_next_example_"/>
+    <testcase time="0.001" classname="examplesShinyLive" name="examplesShinyLive_tag_keywords_next_example_"/>
+    <testcase time="0.003" classname="examplesShinyLive" name="examplesShinyLive_tag_keywords_next_example_"/>
+    <testcase time="0.003" classname="examplesShinyLive" name="examplesShinyLive_tag_keywords_next_example_"/>
+    <testcase time="0.01" classname="examplesShinyLive" name="examplesShinyLive_tag_keywords_prev_example_"/>
+    <testcase time="0.003" classname="examplesShinyLive" name="examplesShinyLive_tag_keywords_prev_example_"/>
+    <testcase time="0.001" classname="examplesShinyLive" name="examplesShinyLive_tag_keywords_prev_example_"/>
+    <testcase time="0.003" classname="examplesShinyLive" name="examplesShinyLive_tag_keywords_prev_example_"/>
+    <testcase time="0.003" classname="examplesShinyLive" name="examplesShinyLive_tag_keywords_prev_example_"/>
+    <testcase time="0.01" classname="examplesShinyLive" name="examplesShinyLive_tag_keywords_examples_"/>
+    <testcase time="0.00600000000000001" classname="examplesShinyLive" name="examplesShinyLive_tag_keywords_examples_"/>
+    <testcase time="0.001" classname="examplesShinyLive" name="examplesShinyLive_tag_keywords_examples_"/>
+    <testcase time="0.003" classname="examplesShinyLive" name="examplesShinyLive_tag_keywords_examples_"/>
+    <testcase time="0.003" classname="examplesShinyLive" name="examplesShinyLive_tag_keywords_examples_"/>
+    <testcase time="0.01" classname="examplesShinyLive" name="examplesShinyLive_tag_keywords_tags_examples_"/>
+    <testcase time="0.003" classname="examplesShinyLive" name="examplesShinyLive_tag_keywords_tags_examples_"/>
+    <testcase time="0.002" classname="examplesShinyLive" name="examplesShinyLive_tag_keywords_tags_examples_"/>
+    <testcase time="0.002" classname="examplesShinyLive" name="examplesShinyLive_tag_keywords_tags_examples_"/>
+    <testcase time="0.003" classname="examplesShinyLive" name="examplesShinyLive_tag_keywords_tags_examples_"/>
+    <testcase time="0.117" classname="examplesShinyLive" name="examplesShinyLive_tag_keywords_error_when_parsing_with_glue"/>
+    <testcase time="0.003" classname="examplesShinyLive" name="examplesShinyLive_tag_keywords_error_when_parsing_with_glue"/>
+    <testcase time="0.011" classname="examplesShinyLive" name="examplesShinyLive_tag_decorate_using_next_example_keyword"/>
+    <testcase time="0.003" classname="examplesShinyLive" name="examplesShinyLive_tag_decorate_using_next_example_keyword"/>
+    <testcase time="0.001" classname="examplesShinyLive" name="examplesShinyLive_tag_decorate_using_next_example_keyword"/>
+    <testcase time="0.003" classname="examplesShinyLive" name="examplesShinyLive_tag_decorate_using_next_example_keyword"/>
+    <testcase time="0.00600000000000001" classname="examplesShinyLive" name="examplesShinyLive_tag_decorate_using_next_example_keyword"/>
+  </testsuite>
+  <testsuite name="parse_url" timestamp="2024-08-20T09:32:23Z" hostname="09352baba860" tests="1" skipped="0" failures="0" errors="0" time="0.014">
+    <testcase time="0.0139999999999999" classname="parse_url" name="create_shinylive_url_works_as_expected"/>
+  </testsuite>
+</testsuites>
