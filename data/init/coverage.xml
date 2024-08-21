@@ -1,36 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE coverage SYSTEM "https://raw.githubusercontent.com/cobertura/cobertura/master/cobertura/src/site/htdocs/xml/coverage-04.dtd">
-<coverage line-rate="0.633802816901408" branch-rate="0" lines-covered="45" lines-valid="71" branches-covered="0" branches-valid="0" complexity="0" version="3.6.4" timestamp="2024-08-20 14:17:06.09812">
+<coverage line-rate="0.638888888888889" branch-rate="0" lines-covered="46" lines-valid="72" branches-covered="0" branches-valid="0" complexity="0" version="3.6.4" timestamp="2024-08-21 09:51:56.449445">
   <sources>
     <source>/__w/roxy.shinylive/roxy.shinylive/roxy.shinylive</source>
   </sources>
   <packages>
-    <package name="roxy.shinylive" line-rate="0.633802816901408" branch-rate="0" complexity="0">
+    <package name="roxy.shinylive" line-rate="0.638888888888889" branch-rate="0" complexity="0">
       <classes>
         <class name="parse_url.R" filename="R/parse_url.R" line-rate="1" branch-rate="0" complexity="0">
           <methods>
             <method name="create_shinylive_url" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
-                <line number="11" hits="10" branch="false"/>
-                <line number="12" hits="10" branch="false"/>
-                <line number="13" hits="10" branch="false"/>
-                <line number="14" hits="10" branch="false"/>
                 <line number="15" hits="10" branch="false"/>
-                <line number="16" hits="10" branch="false"/>
-                <line number="17" hits="10" branch="false"/>
-                <line number="18" hits="10" branch="false"/>
+                <line number="19" hits="10" branch="false"/>
+                <line number="20" hits="10" branch="false"/>
+                <line number="21" hits="10" branch="false"/>
+                <line number="22" hits="10" branch="false"/>
+                <line number="23" hits="10" branch="false"/>
+                <line number="24" hits="10" branch="false"/>
+                <line number="25" hits="10" branch="false"/>
+                <line number="26" hits="10" branch="false"/>
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="11" hits="10" branch="false"/>
-            <line number="12" hits="10" branch="false"/>
-            <line number="13" hits="10" branch="false"/>
-            <line number="14" hits="10" branch="false"/>
             <line number="15" hits="10" branch="false"/>
-            <line number="16" hits="10" branch="false"/>
-            <line number="17" hits="10" branch="false"/>
-            <line number="18" hits="10" branch="false"/>
+            <line number="19" hits="10" branch="false"/>
+            <line number="20" hits="10" branch="false"/>
+            <line number="21" hits="10" branch="false"/>
+            <line number="22" hits="10" branch="false"/>
+            <line number="23" hits="10" branch="false"/>
+            <line number="24" hits="10" branch="false"/>
+            <line number="25" hits="10" branch="false"/>
+            <line number="26" hits="10" branch="false"/>
           </lines>
         </class>
         <class name="tag_examplesShinylive.R" filename="R/tag_examplesShinylive.R" line-rate="0.587301587301587" branch-rate="0" complexity="0">
