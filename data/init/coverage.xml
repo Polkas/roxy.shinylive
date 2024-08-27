@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE coverage SYSTEM "https://raw.githubusercontent.com/cobertura/cobertura/master/cobertura/src/site/htdocs/xml/coverage-04.dtd">
-<coverage line-rate="0.638888888888889" branch-rate="0" lines-covered="46" lines-valid="72" branches-covered="0" branches-valid="0" complexity="0" version="3.6.4" timestamp="2024-08-21 09:51:56.449445">
+<coverage line-rate="0.541176470588235" branch-rate="0" lines-covered="46" lines-valid="85" branches-covered="0" branches-valid="0" complexity="0" version="3.6.4" timestamp="2024-08-27 09:32:46.844383">
   <sources>
     <source>/__w/roxy.shinylive/roxy.shinylive/roxy.shinylive</source>
   </sources>
   <packages>
-    <package name="roxy.shinylive" line-rate="0.638888888888889" branch-rate="0" complexity="0">
+    <package name="roxy.shinylive" line-rate="0.541176470588235" branch-rate="0" complexity="0">
       <classes>
         <class name="parse_url.R" filename="R/parse_url.R" line-rate="1" branch-rate="0" complexity="0">
           <methods>
@@ -35,7 +35,7 @@
             <line number="26" hits="10" branch="false"/>
           </lines>
         </class>
-        <class name="tag_examplesShinylive.R" filename="R/tag_examplesShinylive.R" line-rate="0.587301587301587" branch-rate="0" complexity="0">
+        <class name="tag_examplesShinylive.R" filename="R/tag_examplesShinylive.R" line-rate="0.486842105263158" branch-rate="0" complexity="0">
           <methods>
             <method name="roxy_tag_parse.roxy_tag_examplesShinylive" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
@@ -110,6 +110,19 @@
                 <line number="185" hits="0" branch="false"/>
                 <line number="186" hits="0" branch="false"/>
                 <line number="187" hits="0" branch="false"/>
+                <line number="188" hits="0" branch="false"/>
+                <line number="189" hits="0" branch="false"/>
+                <line number="190" hits="0" branch="false"/>
+                <line number="191" hits="0" branch="false"/>
+                <line number="192" hits="0" branch="false"/>
+                <line number="193" hits="0" branch="false"/>
+                <line number="194" hits="0" branch="false"/>
+                <line number="195" hits="0" branch="false"/>
+                <line number="196" hits="0" branch="false"/>
+                <line number="197" hits="0" branch="false"/>
+                <line number="198" hits="0" branch="false"/>
+                <line number="199" hits="0" branch="false"/>
+                <line number="200" hits="0" branch="false"/>
               </lines>
             </method>
           </methods>
@@ -177,6 +190,19 @@
             <line number="185" hits="0" branch="false"/>
             <line number="186" hits="0" branch="false"/>
             <line number="187" hits="0" branch="false"/>
+            <line number="188" hits="0" branch="false"/>
+            <line number="189" hits="0" branch="false"/>
+            <line number="190" hits="0" branch="false"/>
+            <line number="191" hits="0" branch="false"/>
+            <line number="192" hits="0" branch="false"/>
+            <line number="193" hits="0" branch="false"/>
+            <line number="194" hits="0" branch="false"/>
+            <line number="195" hits="0" branch="false"/>
+            <line number="196" hits="0" branch="false"/>
+            <line number="197" hits="0" branch="false"/>
+            <line number="198" hits="0" branch="false"/>
+            <line number="199" hits="0" branch="false"/>
+            <line number="200" hits="0" branch="false"/>
           </lines>
         </class>
       </classes>
