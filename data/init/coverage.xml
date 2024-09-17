@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE coverage SYSTEM "https://raw.githubusercontent.com/cobertura/cobertura/master/cobertura/src/site/htdocs/xml/coverage-04.dtd">
-<coverage line-rate="1" branch-rate="0" lines-covered="83" lines-valid="83" branches-covered="0" branches-valid="0" complexity="0" version="3.6.4" timestamp="2024-09-05 17:40:14.340779">
+<coverage line-rate="1" branch-rate="0" lines-covered="85" lines-valid="85" branches-covered="0" branches-valid="0" complexity="0" version="3.6.4" timestamp="2024-09-17 08:31:40.165768">
   <sources>
     <source>/__w/roxy.shinylive/roxy.shinylive/roxy.shinylive</source>
   </sources>
@@ -100,8 +100,8 @@
                 <line number="175" hits="2" branch="false"/>
                 <line number="176" hits="2" branch="false"/>
                 <line number="177" hits="2" branch="false"/>
+                <line number="178" hits="2" branch="false"/>
                 <line number="179" hits="2" branch="false"/>
-                <line number="180" hits="2" branch="false"/>
                 <line number="181" hits="2" branch="false"/>
                 <line number="182" hits="2" branch="false"/>
                 <line number="183" hits="2" branch="false"/>
@@ -121,6 +121,8 @@
                 <line number="197" hits="2" branch="false"/>
                 <line number="198" hits="2" branch="false"/>
                 <line number="199" hits="2" branch="false"/>
+                <line number="200" hits="2" branch="false"/>
+                <line number="201" hits="2" branch="false"/>
               </lines>
             </method>
           </methods>
@@ -178,8 +180,8 @@
             <line number="175" hits="2" branch="false"/>
             <line number="176" hits="2" branch="false"/>
             <line number="177" hits="2" branch="false"/>
+            <line number="178" hits="2" branch="false"/>
             <line number="179" hits="2" branch="false"/>
-            <line number="180" hits="2" branch="false"/>
             <line number="181" hits="2" branch="false"/>
             <line number="182" hits="2" branch="false"/>
             <line number="183" hits="2" branch="false"/>
@@ -199,6 +201,8 @@
             <line number="197" hits="2" branch="false"/>
             <line number="198" hits="2" branch="false"/>
             <line number="199" hits="2" branch="false"/>
+            <line number="200" hits="2" branch="false"/>
+            <line number="201" hits="2" branch="false"/>
           </lines>
         </class>
       </classes>
