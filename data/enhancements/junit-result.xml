@@ -1,123 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="parse_url" timestamp="2024-09-19T10:43:33Z" hostname="e75dfc713841" tests="1" skipped="0" failures="0" errors="1" time="0.016">
-    <testcase time="0.016" classname="parse_url" name="create_shinylive_url_works_as_expected">
-      <error type="error" message="Error in `mode == &quot;app&quot; &amp;&amp; isFALSE(header)`: 'length = 2' in coercion to 'logical(1)' ('test-parse_url.R:3:3')">Error in `mode == "app" &amp;&amp; isFALSE(header)`: 'length = 2' in coercion to 'logical(1)'
-Backtrace:
-    x
- 1. +-testthat::expect_identical(create_shinylive_url(app_code), "https://shinylive.io/r/app/#code=NobwRAdghgtgpmAXGKAHVA6ASmANGAYwHsIAXOMpMADwAIAeAWloEYwBfAXSA") at test-parse_url.R:3:3
- 2. | \-testthat::quasi_label(enquo(object), label, arg = "object")
- 3. |   \-rlang::eval_bare(expr, quo_get_env(quo))
- 4. \-roxy.shinylive::create_shinylive_url(app_code)
- 5.   \-base::ifelse(mode == "app" &amp;&amp; isFALSE(header), "h=0&amp;", "")</error>
-    </testcase>
+  <testsuite name="parse_url" timestamp="2024-09-19T11:05:10Z" hostname="23f916113611" tests="1" skipped="0" failures="0" errors="0" time="0.017">
+    <testcase time="0.017" classname="parse_url" name="create_shinylive_url_works_as_expected"/>
   </testsuite>
-  <testsuite name="tag_examplesShinylive" timestamp="2024-09-19T10:43:33Z" hostname="e75dfc713841" tests="12" skipped="2" failures="0" errors="10" time="1.165">
-    <testcase time="0.171" classname="tag_examplesShinylive" name="examplesShinylive_tag_errors_missing_examples">
+  <testsuite name="tag_examplesShinylive" timestamp="2024-09-19T11:05:10Z" hostname="23f916113611" tests="47" skipped="2" failures="0" errors="0" time="0.537">
+    <testcase time="0.14" classname="tag_examplesShinylive" name="examplesShinylive_tag_errors_missing_examples">
       <skipped message="Reason: On CRAN ('test-tag_examplesShinylive.R:12:3')"/>
     </testcase>
-    <testcase time="0.137" classname="tag_examplesShinylive" name="examplesShinylive_tag_single_occurrence">
-      <error type="error" message="&lt;purrr_error_indexed/rlang_error/error/condition&gt; ('test-tag_examplesShinylive.R:31:3')">&lt;purrr_error_indexed/rlang_error/error/condition&gt;
-Error in `map(seq_along(tokens), function(i) {
-    block_create(call = calls[[i]], srcref = srcrefs[[i]], tokens = tokens[[i]])
-})`: i In index: 1.
-Caused by error in `map()`:
-i In index: 5.
-Caused by error in `mode == "app" &amp;&amp; isFALSE(header)`:
-! 'length = 2' in coercion to 'logical(1)'</error>
-    </testcase>
-    <testcase time="0.088" classname="tag_examplesShinylive" name="examplesShinylive_tag_multiple_occurrences">
-      <error type="error" message="&lt;purrr_error_indexed/rlang_error/error/condition&gt; ('test-tag_examplesShinylive.R:62:3')">&lt;purrr_error_indexed/rlang_error/error/condition&gt;
-Error in `map(seq_along(tokens), function(i) {
-    block_create(call = calls[[i]], srcref = srcrefs[[i]], tokens = tokens[[i]])
-})`: i In index: 1.
-Caused by error in `map()`:
-i In index: 4.
-Caused by error in `mode == "app" &amp;&amp; isFALSE(header)`:
-! 'length = 2' in coercion to 'logical(1)'</error>
-    </testcase>
-    <testcase time="0.079" classname="tag_examplesShinylive" name="examplesShinylive_tag_don_t_use_previous_example_code">
-      <error type="error" message="&lt;purrr_error_indexed/rlang_error/error/condition&gt; ('test-tag_examplesShinylive.R:102:3')">&lt;purrr_error_indexed/rlang_error/error/condition&gt;
-Error in `map(seq_along(tokens), function(i) {
-    block_create(call = calls[[i]], srcref = srcrefs[[i]], tokens = tokens[[i]])
-})`: i In index: 1.
-Caused by error in `map()`:
-i In index: 6.
-Caused by error in `mode == "app" &amp;&amp; isFALSE(header)`:
-! 'length = 2' in coercion to 'logical(1)'</error>
-    </testcase>
-    <testcase time="0.0810000000000001" classname="tag_examplesShinylive" name="examplesShinylive_tag_keywords_next_example_">
-      <error type="error" message="&lt;purrr_error_indexed/rlang_error/error/condition&gt; ('test-tag_examplesShinylive.R:133:3')">&lt;purrr_error_indexed/rlang_error/error/condition&gt;
-Error in `map(seq_along(tokens), function(i) {
-    block_create(call = calls[[i]], srcref = srcrefs[[i]], tokens = tokens[[i]])
-})`: i In index: 1.
-Caused by error in `map()`:
-i In index: 5.
-Caused by error in `mode == "app" &amp;&amp; isFALSE(header)`:
-! 'length = 2' in coercion to 'logical(1)'</error>
-    </testcase>
-    <testcase time="0.083" classname="tag_examplesShinylive" name="examplesShinylive_tag_keywords_prev_example_">
-      <error type="error" message="&lt;purrr_error_indexed/rlang_error/error/condition&gt; ('test-tag_examplesShinylive.R:164:3')">&lt;purrr_error_indexed/rlang_error/error/condition&gt;
-Error in `map(seq_along(tokens), function(i) {
-    block_create(call = calls[[i]], srcref = srcrefs[[i]], tokens = tokens[[i]])
-})`: i In index: 1.
-Caused by error in `map()`:
-i In index: 6.
-Caused by error in `mode == "app" &amp;&amp; isFALSE(header)`:
-! 'length = 2' in coercion to 'logical(1)'</error>
-    </testcase>
-    <testcase time="0.0780000000000001" classname="tag_examplesShinylive" name="examplesShinylive_tag_keywords_examples_">
-      <error type="error" message="&lt;purrr_error_indexed/rlang_error/error/condition&gt; ('test-tag_examplesShinylive.R:195:3')">&lt;purrr_error_indexed/rlang_error/error/condition&gt;
-Error in `map(seq_along(tokens), function(i) {
-    block_create(call = calls[[i]], srcref = srcrefs[[i]], tokens = tokens[[i]])
-})`: i In index: 1.
-Caused by error in `map()`:
-i In index: 6.
-Caused by error in `mode == "app" &amp;&amp; isFALSE(header)`:
-! 'length = 2' in coercion to 'logical(1)'</error>
-    </testcase>
-    <testcase time="0.0979999999999999" classname="tag_examplesShinylive" name="examplesShinylive_tag_keywords_tags_examples_">
-      <error type="error" message="&lt;purrr_error_indexed/rlang_error/error/condition&gt; ('test-tag_examplesShinylive.R:226:3')">&lt;purrr_error_indexed/rlang_error/error/condition&gt;
-Error in `map(seq_along(tokens), function(i) {
-    block_create(call = calls[[i]], srcref = srcrefs[[i]], tokens = tokens[[i]])
-})`: i In index: 1.
-Caused by error in `map()`:
-i In index: 6.
-Caused by error in `mode == "app" &amp;&amp; isFALSE(header)`:
-! 'length = 2' in coercion to 'logical(1)'</error>
-    </testcase>
-    <testcase time="0.056" classname="tag_examplesShinylive" name="examplesShinylive_tag_keywords_error_when_parsing_with_glue">
+    <testcase time="0.029" classname="tag_examplesShinylive" name="examplesShinylive_tag_single_occurrence"/>
+    <testcase time="0.002" classname="tag_examplesShinylive" name="examplesShinylive_tag_single_occurrence"/>
+    <testcase time="0.002" classname="tag_examplesShinylive" name="examplesShinylive_tag_single_occurrence"/>
+    <testcase time="0.002" classname="tag_examplesShinylive" name="examplesShinylive_tag_single_occurrence"/>
+    <testcase time="0.003" classname="tag_examplesShinylive" name="examplesShinylive_tag_single_occurrence"/>
+    <testcase time="0.011" classname="tag_examplesShinylive" name="examplesShinylive_tag_multiple_occurrences"/>
+    <testcase time="0.003" classname="tag_examplesShinylive" name="examplesShinylive_tag_multiple_occurrences"/>
+    <testcase time="0.001" classname="tag_examplesShinylive" name="examplesShinylive_tag_multiple_occurrences"/>
+    <testcase time="0.003" classname="tag_examplesShinylive" name="examplesShinylive_tag_multiple_occurrences"/>
+    <testcase time="0.002" classname="tag_examplesShinylive" name="examplesShinylive_tag_multiple_occurrences"/>
+    <testcase time="0.003" classname="tag_examplesShinylive" name="examplesShinylive_tag_multiple_occurrences"/>
+    <testcase time="0.003" classname="tag_examplesShinylive" name="examplesShinylive_tag_multiple_occurrences"/>
+    <testcase time="0.012" classname="tag_examplesShinylive" name="examplesShinylive_tag_don_t_use_previous_example_code"/>
+    <testcase time="0.003" classname="tag_examplesShinylive" name="examplesShinylive_tag_don_t_use_previous_example_code"/>
+    <testcase time="0.00099999999999989" classname="tag_examplesShinylive" name="examplesShinylive_tag_don_t_use_previous_example_code"/>
+    <testcase time="0.003" classname="tag_examplesShinylive" name="examplesShinylive_tag_don_t_use_previous_example_code"/>
+    <testcase time="0.003" classname="tag_examplesShinylive" name="examplesShinylive_tag_don_t_use_previous_example_code"/>
+    <testcase time="0.01" classname="tag_examplesShinylive" name="examplesShinylive_tag_keywords_next_example_"/>
+    <testcase time="0.002" classname="tag_examplesShinylive" name="examplesShinylive_tag_keywords_next_example_"/>
+    <testcase time="0.002" classname="tag_examplesShinylive" name="examplesShinylive_tag_keywords_next_example_"/>
+    <testcase time="0.003" classname="tag_examplesShinylive" name="examplesShinylive_tag_keywords_next_example_"/>
+    <testcase time="0.002" classname="tag_examplesShinylive" name="examplesShinylive_tag_keywords_next_example_"/>
+    <testcase time="0.01" classname="tag_examplesShinylive" name="examplesShinylive_tag_keywords_prev_example_"/>
+    <testcase time="0.003" classname="tag_examplesShinylive" name="examplesShinylive_tag_keywords_prev_example_"/>
+    <testcase time="0.001" classname="tag_examplesShinylive" name="examplesShinylive_tag_keywords_prev_example_"/>
+    <testcase time="0.003" classname="tag_examplesShinylive" name="examplesShinylive_tag_keywords_prev_example_"/>
+    <testcase time="0.003" classname="tag_examplesShinylive" name="examplesShinylive_tag_keywords_prev_example_"/>
+    <testcase time="0.011" classname="tag_examplesShinylive" name="examplesShinylive_tag_keywords_examples_"/>
+    <testcase time="0.005" classname="tag_examplesShinylive" name="examplesShinylive_tag_keywords_examples_"/>
+    <testcase time="0.001" classname="tag_examplesShinylive" name="examplesShinylive_tag_keywords_examples_"/>
+    <testcase time="0.003" classname="tag_examplesShinylive" name="examplesShinylive_tag_keywords_examples_"/>
+    <testcase time="0.002" classname="tag_examplesShinylive" name="examplesShinylive_tag_keywords_examples_"/>
+    <testcase time="0.01" classname="tag_examplesShinylive" name="examplesShinylive_tag_keywords_tags_examples_"/>
+    <testcase time="0.003" classname="tag_examplesShinylive" name="examplesShinylive_tag_keywords_tags_examples_"/>
+    <testcase time="0.001" classname="tag_examplesShinylive" name="examplesShinylive_tag_keywords_tags_examples_"/>
+    <testcase time="0.003" classname="tag_examplesShinylive" name="examplesShinylive_tag_keywords_tags_examples_"/>
+    <testcase time="0.003" classname="tag_examplesShinylive" name="examplesShinylive_tag_keywords_tags_examples_"/>
+    <testcase time="0.085" classname="tag_examplesShinylive" name="examplesShinylive_tag_keywords_error_when_parsing_with_glue">
       <skipped message="Reason: On CRAN ('test-tag_examplesShinylive.R:254:3')"/>
     </testcase>
-    <testcase time="0.083" classname="tag_examplesShinylive" name="examplesShinylive_tag_decorate_using_next_example_keyword">
-      <error type="error" message="&lt;purrr_error_indexed/rlang_error/error/condition&gt; ('test-tag_examplesShinylive.R:279:3')">&lt;purrr_error_indexed/rlang_error/error/condition&gt;
-Error in `map(seq_along(tokens), function(i) {
-    block_create(call = calls[[i]], srcref = srcrefs[[i]], tokens = tokens[[i]])
-})`: i In index: 1.
-Caused by error in `map()`:
-i In index: 6.
-Caused by error in `mode == "app" &amp;&amp; isFALSE(header)`:
-! 'length = 2' in coercion to 'logical(1)'</error>
-    </testcase>
-    <testcase time="0.127" classname="tag_examplesShinylive" name="format_returns_Rd_parsable_to_HTML">
-      <error type="error" message="&lt;purrr_error_indexed/rlang_error/error/condition&gt; ('test-tag_examplesShinylive.R:313:3')">&lt;purrr_error_indexed/rlang_error/error/condition&gt;
-Error in `map(seq_along(tokens), function(i) {
-    block_create(call = calls[[i]], srcref = srcrefs[[i]], tokens = tokens[[i]])
-})`: i In index: 1.
-Caused by error in `map()`:
-i In index: 5.
-Caused by error in `mode == "app" &amp;&amp; isFALSE(header)`:
-! 'length = 2' in coercion to 'logical(1)'</error>
-    </testcase>
-    <testcase time="0.0840000000000001" classname="tag_examplesShinylive" name="format_returns_Rd_parsable_to_tidy_HTML">
-      <error type="error" message="&lt;purrr_error_indexed/rlang_error/error/condition&gt; ('test-tag_examplesShinylive.R:340:3')">&lt;purrr_error_indexed/rlang_error/error/condition&gt;
-Error in `map(seq_along(tokens), function(i) {
-    block_create(call = calls[[i]], srcref = srcrefs[[i]], tokens = tokens[[i]])
-})`: i In index: 1.
-Caused by error in `map()`:
-i In index: 5.
-Caused by error in `mode == "app" &amp;&amp; isFALSE(header)`:
-! 'length = 2' in coercion to 'logical(1)'</error>
-    </testcase>
+    <testcase time="0.032" classname="tag_examplesShinylive" name="examplesShinylive_tag_decorate_using_next_example_keyword"/>
+    <testcase time="0.003" classname="tag_examplesShinylive" name="examplesShinylive_tag_decorate_using_next_example_keyword"/>
+    <testcase time="0.001" classname="tag_examplesShinylive" name="examplesShinylive_tag_decorate_using_next_example_keyword"/>
+    <testcase time="0.003" classname="tag_examplesShinylive" name="examplesShinylive_tag_decorate_using_next_example_keyword"/>
+    <testcase time="0.003" classname="tag_examplesShinylive" name="examplesShinylive_tag_decorate_using_next_example_keyword"/>
+    <testcase time="0.077" classname="tag_examplesShinylive" name="format_returns_Rd_parsable_to_HTML"/>
+    <testcase time="0.002" classname="tag_examplesShinylive" name="format_returns_Rd_parsable_to_HTML"/>
+    <testcase time="0.024" classname="tag_examplesShinylive" name="format_returns_Rd_parsable_to_tidy_HTML"/>
   </testsuite>
 </testsuites>
