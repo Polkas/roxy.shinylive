@@ -107,8 +107,8 @@ table.table-condensed {
       </ul>
       <div class="tab-content" data-tabsetid="covr">
         <div class="tab-pane active" title="Files" data-value="Files" id="tab-covr-1">
-          <div class="datatables html-widget html-fill-item" id="htmlwidget-c6bbe313d2b3e9d24e08" style="width:100%;height:500px;"></div>
-          <script type="application/json" data-for="htmlwidget-c6bbe313d2b3e9d24e08">{"x":{"filter":"none","vertical":false,"fillContainer":false,"data":[["<a href=\"#\">R/tag_examplesShinylive.R<\/a>","<a href=\"#\">R/parse_url.R<\/a>"],[226,27],[61,8],[61,8],[0,0],["7","12"],["100.00%","100.00%"]],"container":"<table class=\"row-border\">\n  <thead>\n    <tr>\n      <th>File<\/th>\n      <th>Lines<\/th>\n      <th>Relevant<\/th>\n      <th>Covered<\/th>\n      <th>Missed<\/th>\n      <th>Hits / Line<\/th>\n      <th>Coverage<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"searching":false,"dom":"t","paging":false,"columnDefs":[{"targets":6,"createdCell":"function(td, cellData, rowData, row, col) {\n  var percent = cellData.replace(\"%\", \"\");\n  if (percent > 90) {\n    var grad = \"linear-gradient(90deg, #edfde7 \" + cellData + \", white \" + cellData + \")\";\n  } else if (percent > 75) {\n    var grad = \"linear-gradient(90deg, #f9ffe5 \" + cellData + \", white \" + cellData + \")\";\n  } else {\n    var grad = \"linear-gradient(90deg, #fcece9 \" + cellData + \", white \" + cellData + \")\";\n  }\n  $(td).css(\"background\", grad);\n}\n"},{"className":"dt-right","targets":[1,2,3,4]},{"name":"File","targets":0},{"name":"Lines","targets":1},{"name":"Relevant","targets":2},{"name":"Covered","targets":3},{"name":"Missed","targets":4},{"name":"Hits / Line","targets":5},{"name":"Coverage","targets":6}],"order":[],"autoWidth":false,"orderClasses":false},"callback":"function(table) {\ntable.on('click.dt', 'a', function() {\n  files = $('div#files div');\n  files.not('div.hidden').addClass('hidden');\n  id = $(this).text();\n  files.filter('div[id=\\'' + id + '\\']').removeClass('hidden');\n  $('ul.nav a[data-value=Source]').text(id).tab('show');\n});\n}"},"evals":["options.columnDefs.0.createdCell","callback"],"jsHooks":[]}</script>
+          <div class="datatables html-widget html-fill-item" id="htmlwidget-70cdbe8340109465f86e" style="width:100%;height:500px;"></div>
+          <script type="application/json" data-for="htmlwidget-70cdbe8340109465f86e">{"x":{"filter":"none","vertical":false,"fillContainer":false,"data":[["<a href=\"#\">R/tag_examplesShinylive.R<\/a>","<a href=\"#\">R/parse_url.R<\/a>"],[226,37],[61,11],[61,11],[0,0],["7","12"],["100.00%","100.00%"]],"container":"<table class=\"row-border\">\n  <thead>\n    <tr>\n      <th>File<\/th>\n      <th>Lines<\/th>\n      <th>Relevant<\/th>\n      <th>Covered<\/th>\n      <th>Missed<\/th>\n      <th>Hits / Line<\/th>\n      <th>Coverage<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"searching":false,"dom":"t","paging":false,"columnDefs":[{"targets":6,"createdCell":"function(td, cellData, rowData, row, col) {\n  var percent = cellData.replace(\"%\", \"\");\n  if (percent > 90) {\n    var grad = \"linear-gradient(90deg, #edfde7 \" + cellData + \", white \" + cellData + \")\";\n  } else if (percent > 75) {\n    var grad = \"linear-gradient(90deg, #f9ffe5 \" + cellData + \", white \" + cellData + \")\";\n  } else {\n    var grad = \"linear-gradient(90deg, #fcece9 \" + cellData + \", white \" + cellData + \")\";\n  }\n  $(td).css(\"background\", grad);\n}\n"},{"className":"dt-right","targets":[1,2,3,4]},{"name":"File","targets":0},{"name":"Lines","targets":1},{"name":"Relevant","targets":2},{"name":"Covered","targets":3},{"name":"Missed","targets":4},{"name":"Hits / Line","targets":5},{"name":"Coverage","targets":6}],"order":[],"autoWidth":false,"orderClasses":false},"callback":"function(table) {\ntable.on('click.dt', 'a', function() {\n  files = $('div#files div');\n  files.not('div.hidden').addClass('hidden');\n  id = $(this).text();\n  files.filter('div[id=\\'' + id + '\\']').removeClass('hidden');\n  $('ul.nav a[data-value=Source]').text(id).tab('show');\n});\n}"},"evals":["options.columnDefs.0.createdCell","callback"],"jsHooks":[]}</script>
         </div>
         <div class="tab-pane" title="Source" data-value="Source" id="tab-covr-2">
           <div id="files">
@@ -119,7 +119,7 @@ table.table-condensed {
                     <td class="num">1</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#' Custom `examplesShinylive` tag.</pre>
+                      <pre class="language-r">#' Custom `@examplesShinylive` tag.</pre>
                     </td>
                   </tr>
                   <tr class="never">
@@ -133,14 +133,14 @@ table.table-condensed {
                     <td class="num">3</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#' This function generates a new "Examples in Shinylive" section in the documentation. This section contains URL to</pre>
+                      <pre class="language-r">#' This function generates a new "Examples in Shinylive" section in the documentation.</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">4</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#' the application in Shinylive as well as an iframe with the application.</pre>
+                      <pre class="language-r">#' This section contains URL to the application in Shinylive and for HTML outputs: an iframe with the application.</pre>
                     </td>
                   </tr>
                   <tr class="never">
@@ -1575,7 +1575,7 @@ table.table-condensed {
                     <td class="num">209</td>
                     <td class="coverage">2<em>x</em></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">    $(\"iframe.iframe_shinylive\").css(\"width\", \"140\\%\");</pre>
+                      <pre class="language-r">    $(\"iframe.iframe_shinylive\").css(\"width\", \"150\\%\");</pre>
                     </td>
                   </tr>
                   <tr class="never">
@@ -1707,7 +1707,7 @@ table.table-condensed {
                     <td class="num">1</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#' Creates Shinylive url for the app code.</pre>
+                      <pre class="language-r">#' Creates Shinylive url based on app code.</pre>
                     </td>
                   </tr>
                   <tr class="never">
@@ -1749,144 +1749,214 @@ table.table-condensed {
                     <td class="num">7</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#' @return (`character(1)`) Shinylive app url.</pre>
+                      <pre class="language-r">#' @param mode (`character(1)`) A string with mode. One of "app" or "editor". Default is "app".</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">8</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#'</pre>
+                      <pre class="language-r">#' @param header (`logical(1)`) A logical value indicating whether to include header.</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">9</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#' @export</pre>
+                      <pre class="language-r">#' Ignored if `mode` is "editor".</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">10</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#'</pre>
+                      <pre class="language-r">#' @return (`character(1)`) Shinylive app url.</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">11</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#' @examples</pre>
+                      <pre class="language-r">#'</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">12</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#' code &lt;- "this is your app code as a string"</pre>
+                      <pre class="language-r">#' @export</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">13</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">#' create_shinylive_url(code)</pre>
+                      <pre class="language-r">#'</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">14</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">create_shinylive_url &lt;- function(code) {</pre>
+                      <pre class="language-r">#' @examples</pre>
                     </td>
                   </tr>
-                  <tr class="covered">
+                  <tr class="never">
                     <td class="num">15</td>
-                    <td class="coverage">12<em>x</em></td>
+                    <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">  stopifnot(is.character(code) &amp;&amp; length(code) == 1)</pre>
+                      <pre class="language-r">#' code &lt;- "this is your app code as a string"</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">16</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r"></pre>
+                      <pre class="language-r">#' create_shinylive_url(code)</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">17</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">  # implementation based on "Create ShinyLive Link" feature of Shiny VSCode extension</pre>
+                      <pre class="language-r">#' create_shinylive_url(code, header = FALSE)</pre>
                     </td>
                   </tr>
                   <tr class="never">
                     <td class="num">18</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">  # https://github.com/posit-dev/shiny-vscode/blob/80560bf36d516ff89dffe88bd9a28cee9edd4d43/src/shinylive.ts#L499</pre>
+                      <pre class="language-r">#' create_shinylive_url(code, mode = "editor")</pre>
                     </td>
                   </tr>
-                  <tr class="covered">
+                  <tr class="never">
                     <td class="num">19</td>
-                    <td class="coverage">12<em>x</em></td>
+                    <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">  files &lt;- list(</pre>
+                      <pre class="language-r">create_shinylive_url &lt;- function(code, mode = c("app", "editor"), header = TRUE) {</pre>
                     </td>
                   </tr>
                   <tr class="covered">
                     <td class="num">20</td>
                     <td class="coverage">12<em>x</em></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">    name = jsonlite::unbox("app.R"),</pre>
+                      <pre class="language-r">  stopifnot(is.character(code) &amp;&amp; length(code) == 1)</pre>
                     </td>
                   </tr>
                   <tr class="covered">
                     <td class="num">21</td>
                     <td class="coverage">12<em>x</em></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">    content = jsonlite::unbox(code)</pre>
+                      <pre class="language-r">  mode &lt;- match.arg(mode)</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">22</td>
+                    <td class="coverage">12<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  stopifnot(is.logical(header) &amp;&amp; length(header) == 1)</pre>
                     </td>
                   </tr>
                   <tr class="never">
-                    <td class="num">22</td>
+                    <td class="num">23</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">  )</pre>
+                      <pre class="language-r"></pre>
                     </td>
                   </tr>
-                  <tr class="covered">
-                    <td class="num">23</td>
-                    <td class="coverage">12<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">  files_json &lt;- jsonlite::toJSON(list(files))</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
+                  <tr class="never">
                     <td class="num">24</td>
-                    <td class="coverage">12<em>x</em></td>
+                    <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">  files_lz &lt;- lzstring::compressToEncodedURIComponent(as.character(files_json))</pre>
+                      <pre class="language-r">  # implementation based on "Create ShinyLive Link" feature of Shiny VSCode extension</pre>
                     </td>
                   </tr>
-                  <tr class="covered">
+                  <tr class="never">
                     <td class="num">25</td>
-                    <td class="coverage">12<em>x</em></td>
+                    <td class="coverage"></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">  files_lz &lt;- gsub("/", "-", files_lz)</pre>
+                      <pre class="language-r">  # https://github.com/posit-dev/shiny-vscode/blob/80560bf36d516ff89dffe88bd9a28cee9edd4d43/src/shinylive.ts#L499</pre>
                     </td>
                   </tr>
                   <tr class="covered">
                     <td class="num">26</td>
                     <td class="coverage">12<em>x</em></td>
                     <td class="col-sm-12">
-                      <pre class="language-r">  sprintf("https://shinylive.io/r/app/#code=%s", files_lz)</pre>
+                      <pre class="language-r">  files &lt;- list(</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">27</td>
+                    <td class="coverage">12<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    name = jsonlite::unbox("app.R"),</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">28</td>
+                    <td class="coverage">12<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    content = jsonlite::unbox(code)</pre>
                     </td>
                   </tr>
                   <tr class="never">
-                    <td class="num">27</td>
+                    <td class="num">29</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  )</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">30</td>
+                    <td class="coverage">12<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  files_json &lt;- jsonlite::toJSON(list(files))</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">31</td>
+                    <td class="coverage">12<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  files_lz &lt;- lzstring::compressToEncodedURIComponent(as.character(files_json))</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">32</td>
+                    <td class="coverage">12<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  files_lz &lt;- gsub("/", "-", files_lz)</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">33</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r"></pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">34</td>
+                    <td class="coverage">12<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  header_param &lt;- ifelse(mode == "app" &amp;&amp; isFALSE(header), "h=0&amp;", "")</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">35</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r"></pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">36</td>
+                    <td class="coverage">12<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  sprintf("https://shinylive.io/r/%s/#%scode=%s", mode, header_param, files_lz)</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">37</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
                       <pre class="language-r">}</pre>
