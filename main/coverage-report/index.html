@@ -107,8 +107,8 @@ table.table-condensed {
       </ul>
       <div class="tab-content" data-tabsetid="covr">
         <div class="tab-pane active" title="Files" data-value="Files" id="tab-covr-1">
-          <div class="datatables html-widget html-fill-item" id="htmlwidget-de91043fcd6c91f3cc68" style="width:100%;height:500px;"></div>
-          <script type="application/json" data-for="htmlwidget-de91043fcd6c91f3cc68">{"x":{"filter":"none","vertical":false,"fillContainer":false,"data":[["<a href=\"#\">R/tag_examplesShinylive.R<\/a>","<a href=\"#\">R/parse_url.R<\/a>"],[226,37],[61,11],[61,11],[0,0],["7","12"],["100.00%","100.00%"]],"container":"<table class=\"row-border\">\n  <thead>\n    <tr>\n      <th>File<\/th>\n      <th>Lines<\/th>\n      <th>Relevant<\/th>\n      <th>Covered<\/th>\n      <th>Missed<\/th>\n      <th>Hits / Line<\/th>\n      <th>Coverage<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"searching":false,"dom":"t","paging":false,"columnDefs":[{"targets":6,"createdCell":"function(td, cellData, rowData, row, col) {\n  var percent = cellData.replace(\"%\", \"\");\n  if (percent > 90) {\n    var grad = \"linear-gradient(90deg, #edfde7 \" + cellData + \", white \" + cellData + \")\";\n  } else if (percent > 75) {\n    var grad = \"linear-gradient(90deg, #f9ffe5 \" + cellData + \", white \" + cellData + \")\";\n  } else {\n    var grad = \"linear-gradient(90deg, #fcece9 \" + cellData + \", white \" + cellData + \")\";\n  }\n  $(td).css(\"background\", grad);\n}\n"},{"className":"dt-right","targets":[1,2,3,4]},{"name":"File","targets":0},{"name":"Lines","targets":1},{"name":"Relevant","targets":2},{"name":"Covered","targets":3},{"name":"Missed","targets":4},{"name":"Hits / Line","targets":5},{"name":"Coverage","targets":6}],"order":[],"autoWidth":false,"orderClasses":false},"callback":"function(table) {\ntable.on('click.dt', 'a', function() {\n  files = $('div#files div');\n  files.not('div.hidden').addClass('hidden');\n  id = $(this).text();\n  files.filter('div[id=\\'' + id + '\\']').removeClass('hidden');\n  $('ul.nav a[data-value=Source]').text(id).tab('show');\n});\n}"},"evals":["options.columnDefs.0.createdCell","callback"],"jsHooks":[]}</script>
+          <div class="datatables html-widget html-fill-item" id="htmlwidget-9c59f005ab4ee26258d8" style="width:100%;height:500px;"></div>
+          <script type="application/json" data-for="htmlwidget-9c59f005ab4ee26258d8">{"x":{"filter":"none","vertical":false,"fillContainer":false,"data":[["<a href=\"#\">R/tag_examplesShinylive.R<\/a>","<a href=\"#\">R/parse_url.R<\/a>"],[226,37],[61,11],[61,11],[0,0],["8","14"],["100.00%","100.00%"]],"container":"<table class=\"row-border\">\n  <thead>\n    <tr>\n      <th>File<\/th>\n      <th>Lines<\/th>\n      <th>Relevant<\/th>\n      <th>Covered<\/th>\n      <th>Missed<\/th>\n      <th>Hits / Line<\/th>\n      <th>Coverage<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"searching":false,"dom":"t","paging":false,"columnDefs":[{"targets":6,"createdCell":"function(td, cellData, rowData, row, col) {\n  var percent = cellData.replace(\"%\", \"\");\n  if (percent > 90) {\n    var grad = \"linear-gradient(90deg, #edfde7 \" + cellData + \", white \" + cellData + \")\";\n  } else if (percent > 75) {\n    var grad = \"linear-gradient(90deg, #f9ffe5 \" + cellData + \", white \" + cellData + \")\";\n  } else {\n    var grad = \"linear-gradient(90deg, #fcece9 \" + cellData + \", white \" + cellData + \")\";\n  }\n  $(td).css(\"background\", grad);\n}\n"},{"className":"dt-right","targets":[1,2,3,4]},{"name":"File","targets":0},{"name":"Lines","targets":1},{"name":"Relevant","targets":2},{"name":"Covered","targets":3},{"name":"Missed","targets":4},{"name":"Hits / Line","targets":5},{"name":"Coverage","targets":6}],"order":[],"autoWidth":false,"orderClasses":false},"callback":"function(table) {\ntable.on('click.dt', 'a', function() {\n  files = $('div#files div');\n  files.not('div.hidden').addClass('hidden');\n  id = $(this).text();\n  files.filter('div[id=\\'' + id + '\\']').removeClass('hidden');\n  $('ul.nav a[data-value=Source]').text(id).tab('show');\n});\n}"},"evals":["options.columnDefs.0.createdCell","callback"],"jsHooks":[]}</script>
         </div>
         <div class="tab-pane" title="Source" data-value="Source" id="tab-covr-2">
           <div id="files">
@@ -1020,14 +1020,14 @@ table.table-condensed {
                   </tr>
                   <tr class="covered">
                     <td class="num">130</td>
-                    <td class="coverage">13<em>x</em></td>
+                    <td class="coverage">15<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">  if (stringr::str_trim(x$raw) == "") {</pre>
                     </td>
                   </tr>
                   <tr class="covered">
                     <td class="num">131</td>
-                    <td class="coverage">7<em>x</em></td>
+                    <td class="coverage">8<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">    x$raw &lt;- "{{ next_example }}"</pre>
                     </td>
@@ -1055,7 +1055,7 @@ table.table-condensed {
                   </tr>
                   <tr class="covered">
                     <td class="num">135</td>
-                    <td class="coverage">13<em>x</em></td>
+                    <td class="coverage">15<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">  tokens &lt;- dynGet("tokens")</pre>
                     </td>
@@ -1069,7 +1069,7 @@ table.table-condensed {
                   </tr>
                   <tr class="covered">
                     <td class="num">137</td>
-                    <td class="coverage">13<em>x</em></td>
+                    <td class="coverage">15<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">  tags_examples &lt;- Filter(function(x) x$tag %in% c("examples", "examplesIf"), tokens)</pre>
                     </td>
@@ -1083,7 +1083,7 @@ table.table-condensed {
                   </tr>
                   <tr class="covered">
                     <td class="num">139</td>
-                    <td class="coverage">13<em>x</em></td>
+                    <td class="coverage">15<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">  examples &lt;- lapply(tags_examples, `[[`, "raw")</pre>
                     </td>
@@ -1097,28 +1097,28 @@ table.table-condensed {
                   </tr>
                   <tr class="covered">
                     <td class="num">141</td>
-                    <td class="coverage">13<em>x</em></td>
+                    <td class="coverage">15<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">  next_example &lt;- Reduce(</pre>
                     </td>
                   </tr>
                   <tr class="covered">
                     <td class="num">142</td>
-                    <td class="coverage">13<em>x</em></td>
+                    <td class="coverage">15<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">    function(x, y) `if`(x$line &lt; y$line, x, y),</pre>
                     </td>
                   </tr>
                   <tr class="covered">
                     <td class="num">143</td>
-                    <td class="coverage">13<em>x</em></td>
+                    <td class="coverage">15<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">    Filter(function(y) y$line &gt; x$line, tags_examples)</pre>
                     </td>
                   </tr>
                   <tr class="covered">
                     <td class="num">144</td>
-                    <td class="coverage">13<em>x</em></td>
+                    <td class="coverage">15<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">  )$raw</pre>
                     </td>
@@ -1132,28 +1132,28 @@ table.table-condensed {
                   </tr>
                   <tr class="covered">
                     <td class="num">146</td>
-                    <td class="coverage">13<em>x</em></td>
+                    <td class="coverage">15<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">  prev_example &lt;- Reduce(</pre>
                     </td>
                   </tr>
                   <tr class="covered">
                     <td class="num">147</td>
-                    <td class="coverage">13<em>x</em></td>
+                    <td class="coverage">15<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">    function(x, y) `if`(x$line &gt; y$line, x, y),</pre>
                     </td>
                   </tr>
                   <tr class="covered">
                     <td class="num">148</td>
-                    <td class="coverage">13<em>x</em></td>
+                    <td class="coverage">15<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">    Filter(function(y) y$line &lt; x$line, tags_examples)</pre>
                     </td>
                   </tr>
                   <tr class="covered">
                     <td class="num">149</td>
-                    <td class="coverage">13<em>x</em></td>
+                    <td class="coverage">15<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">  )$raw</pre>
                     </td>
@@ -1167,56 +1167,56 @@ table.table-condensed {
                   </tr>
                   <tr class="covered">
                     <td class="num">151</td>
-                    <td class="coverage">13<em>x</em></td>
+                    <td class="coverage">15<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">  x$raw &lt;- try(</pre>
                     </td>
                   </tr>
                   <tr class="covered">
                     <td class="num">152</td>
-                    <td class="coverage">13<em>x</em></td>
+                    <td class="coverage">15<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">    as.character(</pre>
                     </td>
                   </tr>
                   <tr class="covered">
                     <td class="num">153</td>
-                    <td class="coverage">13<em>x</em></td>
+                    <td class="coverage">15<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">      glue::glue_data(</pre>
                     </td>
                   </tr>
                   <tr class="covered">
                     <td class="num">154</td>
-                    <td class="coverage">13<em>x</em></td>
+                    <td class="coverage">15<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">        .x = list(</pre>
                     </td>
                   </tr>
                   <tr class="covered">
                     <td class="num">155</td>
-                    <td class="coverage">13<em>x</em></td>
+                    <td class="coverage">15<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">          tags_examples = tags_examples,</pre>
                     </td>
                   </tr>
                   <tr class="covered">
                     <td class="num">156</td>
-                    <td class="coverage">13<em>x</em></td>
+                    <td class="coverage">15<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">          examples = examples,</pre>
                     </td>
                   </tr>
                   <tr class="covered">
                     <td class="num">157</td>
-                    <td class="coverage">13<em>x</em></td>
+                    <td class="coverage">15<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">          next_example = next_example,</pre>
                     </td>
                   </tr>
                   <tr class="covered">
                     <td class="num">158</td>
-                    <td class="coverage">13<em>x</em></td>
+                    <td class="coverage">15<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">          prev_example = prev_example</pre>
                     </td>
@@ -1230,21 +1230,21 @@ table.table-condensed {
                   </tr>
                   <tr class="covered">
                     <td class="num">160</td>
-                    <td class="coverage">13<em>x</em></td>
+                    <td class="coverage">15<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">        x$raw,</pre>
                     </td>
                   </tr>
                   <tr class="covered">
                     <td class="num">161</td>
-                    <td class="coverage">13<em>x</em></td>
+                    <td class="coverage">15<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">        .open = "{{",</pre>
                     </td>
                   </tr>
                   <tr class="covered">
                     <td class="num">162</td>
-                    <td class="coverage">13<em>x</em></td>
+                    <td class="coverage">15<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">        .close = "}}"</pre>
                     </td>
@@ -1265,7 +1265,7 @@ table.table-condensed {
                   </tr>
                   <tr class="covered">
                     <td class="num">165</td>
-                    <td class="coverage">13<em>x</em></td>
+                    <td class="coverage">15<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">    silent = TRUE</pre>
                     </td>
@@ -1286,7 +1286,7 @@ table.table-condensed {
                   </tr>
                   <tr class="covered">
                     <td class="num">168</td>
-                    <td class="coverage">13<em>x</em></td>
+                    <td class="coverage">15<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">  if (inherits(x$raw, "try-error")) {</pre>
                     </td>
@@ -1321,7 +1321,7 @@ table.table-condensed {
                   </tr>
                   <tr class="covered">
                     <td class="num">173</td>
-                    <td class="coverage">12<em>x</em></td>
+                    <td class="coverage">14<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">  if (is.null(x$raw) || length(x$raw) == 0) {</pre>
                     </td>
@@ -1349,14 +1349,14 @@ table.table-condensed {
                   </tr>
                   <tr class="covered">
                     <td class="num">177</td>
-                    <td class="coverage">11<em>x</em></td>
+                    <td class="coverage">13<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">  x$val &lt;- create_shinylive_url(x$raw) # nolint: object_usage_linter.</pre>
                     </td>
                   </tr>
                   <tr class="covered">
                     <td class="num">178</td>
-                    <td class="coverage">11<em>x</em></td>
+                    <td class="coverage">13<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">  x</pre>
                     </td>
@@ -1838,21 +1838,21 @@ table.table-condensed {
                   </tr>
                   <tr class="covered">
                     <td class="num">20</td>
-                    <td class="coverage">12<em>x</em></td>
+                    <td class="coverage">14<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">  stopifnot(is.character(code) &amp;&amp; length(code) == 1)</pre>
                     </td>
                   </tr>
                   <tr class="covered">
                     <td class="num">21</td>
-                    <td class="coverage">12<em>x</em></td>
+                    <td class="coverage">14<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">  mode &lt;- match.arg(mode)</pre>
                     </td>
                   </tr>
                   <tr class="covered">
                     <td class="num">22</td>
-                    <td class="coverage">12<em>x</em></td>
+                    <td class="coverage">14<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">  stopifnot(is.logical(header) &amp;&amp; length(header) == 1)</pre>
                     </td>
@@ -1880,21 +1880,21 @@ table.table-condensed {
                   </tr>
                   <tr class="covered">
                     <td class="num">26</td>
-                    <td class="coverage">12<em>x</em></td>
+                    <td class="coverage">14<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">  files &lt;- list(</pre>
                     </td>
                   </tr>
                   <tr class="covered">
                     <td class="num">27</td>
-                    <td class="coverage">12<em>x</em></td>
+                    <td class="coverage">14<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">    name = jsonlite::unbox("app.R"),</pre>
                     </td>
                   </tr>
                   <tr class="covered">
                     <td class="num">28</td>
-                    <td class="coverage">12<em>x</em></td>
+                    <td class="coverage">14<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">    content = jsonlite::unbox(code)</pre>
                     </td>
@@ -1908,21 +1908,21 @@ table.table-condensed {
                   </tr>
                   <tr class="covered">
                     <td class="num">30</td>
-                    <td class="coverage">12<em>x</em></td>
+                    <td class="coverage">14<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">  files_json &lt;- jsonlite::toJSON(list(files))</pre>
                     </td>
                   </tr>
                   <tr class="covered">
                     <td class="num">31</td>
-                    <td class="coverage">12<em>x</em></td>
+                    <td class="coverage">14<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">  files_lz &lt;- lzstring::compressToEncodedURIComponent(as.character(files_json))</pre>
                     </td>
                   </tr>
                   <tr class="covered">
                     <td class="num">32</td>
-                    <td class="coverage">12<em>x</em></td>
+                    <td class="coverage">14<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">  files_lz &lt;- gsub("/", "-", files_lz)</pre>
                     </td>
@@ -1936,7 +1936,7 @@ table.table-condensed {
                   </tr>
                   <tr class="covered">
                     <td class="num">34</td>
-                    <td class="coverage">12<em>x</em></td>
+                    <td class="coverage">14<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">  header_param &lt;- ifelse(mode == "app" &amp;&amp; isFALSE(header), "h=0&amp;", "")</pre>
                     </td>
@@ -1950,7 +1950,7 @@ table.table-condensed {
                   </tr>
                   <tr class="covered">
                     <td class="num">36</td>
-                    <td class="coverage">12<em>x</em></td>
+                    <td class="coverage">14<em>x</em></td>
                     <td class="col-sm-12">
                       <pre class="language-r">  sprintf("https://shinylive.io/r/%s/#%scode=%s", mode, header_param, files_lz)</pre>
                     </td>
