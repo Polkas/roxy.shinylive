@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE coverage SYSTEM "https://raw.githubusercontent.com/cobertura/cobertura/master/cobertura/src/site/htdocs/xml/coverage-04.dtd">
-<coverage line-rate="1" branch-rate="0" lines-covered="84" lines-valid="84" branches-covered="0" branches-valid="0" complexity="0" version="3.6.4" timestamp="2024-10-25 13:52:42.345858">
+<coverage line-rate="1" branch-rate="0" lines-covered="83" lines-valid="83" branches-covered="0" branches-valid="0" complexity="0" version="3.6.4" timestamp="2024-11-06 09:00:34.038379">
   <sources>
     <source>/__w/roxy.shinylive/roxy.shinylive/roxy.shinylive</source>
   </sources>
@@ -104,6 +104,7 @@
                 <line number="201" hits="2" branch="false"/>
                 <line number="202" hits="2" branch="false"/>
                 <line number="203" hits="2" branch="false"/>
+                <line number="204" hits="2" branch="false"/>
                 <line number="205" hits="2" branch="false"/>
                 <line number="206" hits="2" branch="false"/>
                 <line number="207" hits="2" branch="false"/>
@@ -116,7 +117,6 @@
                 <line number="214" hits="2" branch="false"/>
                 <line number="215" hits="2" branch="false"/>
                 <line number="216" hits="2" branch="false"/>
-                <line number="217" hits="2" branch="false"/>
                 <line number="218" hits="2" branch="false"/>
                 <line number="219" hits="2" branch="false"/>
                 <line number="220" hits="2" branch="false"/>
@@ -124,7 +124,6 @@
                 <line number="222" hits="2" branch="false"/>
                 <line number="223" hits="2" branch="false"/>
                 <line number="224" hits="2" branch="false"/>
-                <line number="225" hits="2" branch="false"/>
               </lines>
             </method>
           </methods>
@@ -180,6 +179,7 @@
             <line number="201" hits="2" branch="false"/>
             <line number="202" hits="2" branch="false"/>
             <line number="203" hits="2" branch="false"/>
+            <line number="204" hits="2" branch="false"/>
             <line number="205" hits="2" branch="false"/>
             <line number="206" hits="2" branch="false"/>
             <line number="207" hits="2" branch="false"/>
@@ -192,7 +192,6 @@
             <line number="214" hits="2" branch="false"/>
             <line number="215" hits="2" branch="false"/>
             <line number="216" hits="2" branch="false"/>
-            <line number="217" hits="2" branch="false"/>
             <line number="218" hits="2" branch="false"/>
             <line number="219" hits="2" branch="false"/>
             <line number="220" hits="2" branch="false"/>
@@ -200,7 +199,6 @@
             <line number="222" hits="2" branch="false"/>
             <line number="223" hits="2" branch="false"/>
             <line number="224" hits="2" branch="false"/>
-            <line number="225" hits="2" branch="false"/>
           </lines>
         </class>
       </classes>
